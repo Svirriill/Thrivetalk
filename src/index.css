@@ -1,0 +1,480 @@
+@import url(fonts/fonts.css);
+
+.body {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    padding: 30px 130px 0 180px;
+    background-color: #F4F9E2;
+}
+
+.header__logo {
+    font-family: 'Larsseit';
+    font-size: 24px;
+    line-height: 27px;
+    color: #62D0DF;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.header__nav {
+    max-width: 233px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 350px;
+    z-index: 1;
+}
+
+.header__nav-item {
+    font-family: 'Larsseit';
+    font-size: 14px;
+    line-height: 16px;
+    color: #22356F;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.header__button {
+    min-width: 150px;
+    height: 50px;
+    font-family: 'Larsseit';
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    color: #FFFFFF;
+    background: #62D0DF;
+    border-radius: 50px;
+    z-index: 1;
+}
+
+.section1 {
+    background-color: #F4F9E2;
+    padding: 160px 0px 75px 180px;
+}
+
+.section1__text {
+    max-width: 474px;
+}
+
+.section1__text-link {
+    font-family: 'Larsseit';
+    font-size: 24px;
+    line-height: 27px;
+    color: #62D0DF;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-decoration: none;
+}
+
+.section1__text-title {
+    font-family: 'Larsseit';
+    font-size: 48px;
+    line-height: 53px;
+    color: #22356F;
+    padding: 40px 0 75px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.section1__text-item {
+    font-family: 'Larsseit';
+    font-size: 24px;
+    line-height: 42px;
+    color: #22356F;
+    padding-bottom: 63px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.section1__text-buttons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 338px;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 23px;
+    align-items: center;
+}
+
+.section1__text-button1 {
+    background: #F9B640;
+    padding: 10px 30px;
+}
+
+.section1__text-button2 {
+    color: #F9B640;
+}
+
+.section1__img-item {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.section1__img-item_1 {
+    background-image: url('img/Rectangle_3.1.png');
+    width: 704px;
+    height: 802px;
+}
+
+.section1__img-item_2 {
+    background-image: url('img/Mask_Group.png');
+    width: 743px;
+    height: 824px;
+
+}
+
+.section2 {
+    background: #62D0DF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2__img {
+    background-image: url('img/christopher-campbell-40367.png');
+    width: 525px;
+    height: 604px;
+}
+
+.section2__text {
+    width: calc(1440px - 525px);
+    padding: 150px 180px 95px;
+}
+
+.section2__text-title {
+    font-family: 'Larsseit';
+    font-size: 36px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.section2__text-item {
+    font-family: 'Larsseit';
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-top: 75px;
+}
+
+.section3 {
+    display: block;
+}
+
+.section3__text {
+    display: flex;
+    padding: 156px 106px 0;
+}
+
+.section3__text-title {
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 23px;
+    color: #22356F;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.section3__text-item {
+    font-family: 'Larsseit';
+    font-size: 24px;
+    line-height: 34px;
+    color: #22356F;
+    max-width: 592px;
+    padding-left: 225px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.section3__span {
+    width: 1440px;
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(34, 53, 111, 0.5);
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 76px 0 24px;
+    text-align: center;
+}
+
+.section4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 1440px;
+    margin-bottom: 22px;
+}
+
+.section4__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.section4__container1 {
+    width: 360px;
+    height: 360px;
+    display: flex;
+}
+
+.section4__container-text {
+    font-family: 'Larsseit';
+    font-size: 32px;
+    line-height: 34px;
+    color: #FFFFFF;
+    border-top: 1px solid #FFF;
+    padding-top: 23px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 80px 0 0 80px;
+}
+
+.section4__container2 {
+    width: 480px;
+    height: 480px;
+    display: flex;
+}
+
+.section4-img {
+    background-image: url('img/joanna-kosinska-340748.png');
+}
+
+.pink {
+    background: #FFE2DE;
+}
+
+.green {
+    background: #C4E769;
+}
+
+.light-blue {
+    background: #62D0DF;
+}
+
+.blue {
+    background: #0052C1;
+}
+
+.dark-blue {
+    background: #22356F;
+}
+
+.light-gray {
+    background: #DEE1FF;
+}
+
+.purple {
+    background: #8F00FF;
+}
+
+.section5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.section5__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.section5__container {
+    width: 285px;
+    height: 150px;
+    padding: 55px 80px 35px 105px;
+}
+
+.section5__title {
+    font-family: 'Larsseit';
+    font-size: 28px;
+    line-height: 33px;
+    color: #22356F;
+    padding-bottom: 28px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.section5__subtitle {
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 25px;
+    color: rgba(34, 53, 111, 0.5);
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.section6 {
+    display: flex;
+}
+
+.section6__img {
+    background-image: url('img/linkedin-sales-navigator-402831.png');
+    width: 480px;
+    height: 800px;
+}
+
+.section6__wrap-text {
+    width: 960px;
+    padding: 103px 0 42px 106px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section6__title {
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 12px;
+    color: #22356F;
+}
+
+.section6__subtitle {
+    font-family: 'Larsseit';
+    font-size: 36px;
+    line-height: 53px;
+    color: #22356F;
+    margin: 225px auto 152px;
+}
+
+.section6__link {
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #FAB63E;
+    text-decoration: none;
+}
+
+.section6__text-link {
+    color: #62D0DF;
+}
+
+.section7 {
+    display: flex;
+}
+
+.section7__img {
+    background-image: url('img/charles-etoroma-390119.png');
+    width: 480px;
+    height: 800px;
+}
+
+.section7__wrap-text {
+    max-width: 810px;
+    background: #22356F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 103px 0 42px 150px;
+}
+
+.section7__link-contact {
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.section7__title {
+    font-family: 'Larsseit';
+    font-size: 64px;
+    line-height: 94px;
+    color: #FFFFFF;
+    margin: 230px 0 75px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.section7__subtitle {
+    font-family: 'Larsseit';
+    font-size: 36px;
+    line-height: 53px;
+    color: #FFFFFF;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.section7__link {
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #62D0DF;
+    margin-top: 227px;
+    text-decoration: none;
+}
+
+.section8 {
+    display: flex;
+}
+
+.section8__img {
+    background-image: url('img/autumn-goodman-242825.png');
+    width: 570px;
+    height: 380px;
+}
+
+.section8__wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 70px;
+    width: 870px;
+}
+
+.section8__container {
+    max-width: 240px;
+}
+
+.section8__title {
+    font-family: 'Larsseit';
+    font-size: 14px;
+    line-height: 11px;
+    color: #22356F;
+}
+
+.section8__text {
+    font-family: 'Larsseit';
+    font-size: 14px;
+    line-height: 23px;
+    color: rgba(34, 53, 111, 0.5);
+}
+
+.section8__link {
+    color: #62D0DF;
+}
+
+.footer {
+    background: #62D0DF;
+    min-height: 80px;
+}
+
+.footer__copyright {
+    font-family: 'Larsseit';
+    font-size: 14px;
+    line-height: 11px;
+    color: #FFFFFF;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 30px 0 26px 192px;
+}
