@@ -300,6 +300,7 @@
     width: 285px;
     height: 150px;
     padding: 55px 80px 35px 105px;
+    list-style-type: none;
 }
 
 .section5__title {
